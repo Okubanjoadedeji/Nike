@@ -1,0 +1,214 @@
+:root {
+  font-synthesis: none;
+  /* text-rendering: optimizeLegibility; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+:root {
+  /* font */
+  --ibm: 'IBM Plex Sans', sans-serif;
+  --display: 'Anton', sans-serif;
+  /* color */
+  --offWhite: #f5f5f5;
+  --text-secondary: #707072;
+  --text-primary: #111111;
+  --text-white: #ffffff;
+
+  /* size  */
+  --font-span: 8px;
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-body: 16px;
+  --font-display-1: 76px;
+  --font-h3: 24px;
+  --font-h4: 20px;
+}
+
+/* Utility classes  */
+.display {
+  font-family: var(--display);
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.bg-1 {
+  background-color: var(--offWhite);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.font-span {
+  font-size: var(--font-span);
+}
+
+.font-xs {
+  font-size: var(--font-xs);
+}
+
+.font-sm {
+  font-size: var(--font-sm);
+}
+
+.font-body {
+  font-size: var(--font-body);
+}
+
+.font-display-1 {
+  font-size: var(--font-display-1);
+}
+
+.font-h3 {
+  font-size: var(--font-h3);
+}
+
+.font-h4 {
+  font-size: var(--font-h4);
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.gap {
+  gap: 8px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.wrapper {
+  padding: 0 38px 0 36px;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+
+/* Button classes */
+.btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.btn-black {
+  background-color: var(--text-primary);
+  color: var(--offWhite);
+}
+
+.btn-black:hover {
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.btn-white:hover {
+  background-color: rgb(158, 158, 160);
+}
+
+.btn-white {
+  background-color: var(--offWhite);
+  color: var(--text-primary);
+}

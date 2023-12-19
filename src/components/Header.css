@@ -1,0 +1,168 @@
+
+
+header .header_logo li {
+  padding: 8px;
+}
+
+header .header_links li {
+  padding-left: 8px;
+}
+
+#mj-logo {
+  width: 24px;
+  height: auto;
+}
+
+header .header_links li>a {
+  font-weight: 500;
+}
+
+.dropmenu {
+  position: absolute;
+  overflow: hidden;
+  z-index: 12;
+  transition: all .2s linear;
+  top: 44px;
+  right: 12%;
+  max-height: 0;
+  border-radius: 8px;
+}
+
+.dropmenu-content {
+  padding: 24px 24px 24px 16px;
+  background-color: var(--text-white);
+}
+
+.dropmenu-content-title a {
+  font-size: var(--font-body);
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.dropmenu-content-link a {
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+  font-weight: 400;
+}
+
+.dropmenu-content-title,
+.dropmenu-content-link {
+  padding: 4px 8px;
+}
+
+.header_links>li:hover .dropmenu {
+  max-height: 100%;
+}
+
+/* ? header end */
+
+
+
+/* navigation  */
+nav {
+  z-index: 5;
+}
+
+.nav .nav-links {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav .nav-links>li {
+  padding: 12px;
+  font-weight: 500;
+}
+
+.nav-links>li:hover {
+  border-bottom: 2px solid var(--text-primary);
+}
+
+.nav-links-dropbar {
+  position: absolute;
+  background-color: var(--text-white);
+  overflow: hidden;
+  z-index: 10;
+  width: 100vw;
+  transform: translateX(-35%);
+  height: auto;
+  max-height: 0;
+  top: 100%;
+  left: 0;
+  transition: all .2s linear;
+}
+
+.nav-links>li:hover .nav-links-dropbar {
+  max-height: 100vh;
+  padding: 36px;
+  overflow: auto;
+}
+
+.nav-links-dropbar-cont {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menu-column {
+  width: 17%;
+  margin-bottom: 24px;
+}
+
+.menu-column-title a {
+  font-weight: 500;
+  font-size: var(--font-body);
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.menu-column-link a {
+  font-weight: 400;
+  font-size: var(--font-sm);
+  color: var(--text-secondary);
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.menu-column-link a,
+.menu-column-title a {
+  display: inline-block;
+}
+
+.menu-column>ul {
+  padding-bottom: 24px;
+}
+
+.nav ul>div>span {
+  top: 24px;
+  left: 1060px;
+}
+
+.nav ul>div>input {
+  padding: 12px 38px;
+  height: 40px;
+  width: 180px;
+  border-radius: 80px;
+  font-weight: 500;
+  color: #dedede;
+}
+
+
+.nav .icon .search-bar input {
+  border: none;
+  outline: none;
+}
+
+.nav .icon li {
+  padding: 6px;
+}
+
+.input {
+  color: #85858a;
+}
+
+/* navigation end */
