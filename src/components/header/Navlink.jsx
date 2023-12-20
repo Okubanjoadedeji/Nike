@@ -11,7 +11,7 @@ function Navlink({ data, isTitle = false }) {
 }
 Navlink.propTypes = {
   data: Object,
-  isTitle: Boolean
+  isTitle: Boolean,
 }
 
 export default Navlink

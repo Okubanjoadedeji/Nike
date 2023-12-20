@@ -193,6 +193,7 @@ h6 {
   padding: 8px 20px;
   border-radius: 20px;
   font-weight: 500;
+  display: inline-block;
 }
 
 .btn-black {
@@ -211,4 +212,43 @@ h6 {
 .btn-white {
   background-color: var(--offWhite);
   color: var(--text-primary);
+}
+
+
+@media only screen and (max-width:960px) {
+  .header {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .figc1 {
+    transform: scale(0.8);
+    left: 2%;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width:660px) {
+  .hero-text h1 {
+    transform: scale(0.6);
+  }
+
+  .trending-container ul,
+  .featured-container ul {
+    flex-direction: column;
+  }
+
+  .hero-subject {
+    width: 100%;
+  }
+
+  .trending-text h2 {
+    transform: scale(0.9);
+  }
 }
